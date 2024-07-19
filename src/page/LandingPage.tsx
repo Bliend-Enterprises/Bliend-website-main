@@ -8,8 +8,6 @@ import SoftwareSolutions from "../components/SoftwareSolutions"
 
 const LandingPage = () => {
 
-
-
   return <div>
     <div className="app-page">
 
