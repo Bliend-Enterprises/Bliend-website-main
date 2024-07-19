@@ -4,7 +4,7 @@ import HeaderComponent from "../components/Header"
 import MarketingPage from "../components/Marketing"
 import ServicePage from "../components/ServicePage"
 import SoftwareSolutions from "../components/SoftwareSolutions"
-import TestimonialPage from "../components/TestimonialPage"
+// import TestimonialPage from "../components/TestimonialPage"
 
 const LandingPage = () => {
 
