@@ -28,7 +28,7 @@ const LandingPage = () => {
       
     </div>
     <div className='app-page'>
-      <TestimonialPage />
+      {/* <TestimonialPage /> */}
       <div style={{ height: "50px", width: 'auto' }}></div>
       <div >
         <Footer />
