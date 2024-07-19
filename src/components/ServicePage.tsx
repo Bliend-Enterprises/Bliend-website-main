@@ -49,7 +49,7 @@ const ServicePage: FunctionComponent = () => {
                     </EuiFlexItem>
                     <EuiFlexItem grow={true}>
                         <ScrollFadeIn slideFromLeft={false}>
-                                 <div className="slider-component-wrapper">
+                                <div className="slider-component-wrapper">
                                 <h2 className="service-title ">SERVICES</h2>
                                 <SliderComponent autoplay={true} needBlackIcon={false} />
                                 </div>
