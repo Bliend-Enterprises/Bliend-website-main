@@ -1,0 +1,22 @@
+.content-left {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .content-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .content-right {
+    opacity: 0;
+    transform: translateX(+300px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .content-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  

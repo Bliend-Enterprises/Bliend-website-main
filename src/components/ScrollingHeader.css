@@ -1,0 +1,51 @@
+
+@font-face {
+  font-family: 'chocolate';
+  src: url('../fonts/TT Chocolates Trial Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.scrolling-header {
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    z-index: 999;
+    padding-left: 50%;
+    margin: 0;
+  }
+  
+  .scrolling-wrapper {
+    display: flex;
+    align-items: center;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @media (max-width: 800px) {
+    .scrolling-wrapper {
+        display: flex;
+        align-items: center;
+        animation: scroll 2s linear infinite;
+      }
+}
+
+  .slogan-text {
+    white-space: nowrap;
+    padding: 0 30px;
+    font-size: 24px; 
+    font-weight: 500;
+    font-family: 'chocolate',sans-serif;
+    color: black; 
+}
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

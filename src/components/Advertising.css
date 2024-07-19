@@ -1,0 +1,158 @@
+.billboard {
+    margin-top: -100px;
+    height: auto;
+    max-height: auto;
+    align-items: center;
+    font-size: 22px;
+    color: #C95FA7;
+}
+
+.slider-wrap {
+    z-index: 999;
+    align-items: center;
+}
+
+.ad-image {
+    position: relative;
+    margin-top: -100px;
+    max-width: 600px;
+    max-height: 700px;
+    height: 600px;
+    scale: 1.1;
+}
+
+.footer-word {
+    margin-top: -100px;
+    text-align: center;
+    color: #C95FA7;
+}
+
+.ad-title,
+.ad-summary,
+.traditional-ad-title {
+    text-align: center;
+    text-wrap: wrap;
+}
+
+
+.ad-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.ad-summary {
+    width: auto;
+    font-size: 2.5vw;
+    padding: 20px;
+}
+
+.right-section {
+    padding-bottom: 100px;
+}
+
+.traditional-ad-title {
+    font-weight: 800;
+}
+
+.gradient{
+    background:  linear-gradient(90deg, rgba(2,74,174,0.98) 12%, rgba(132,23,236,0.9) 39%, rgba(92,14,167,0.9) 72%, rgba(28,13,56,0.99) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+
+@media (max-width: 768px) {
+    .EuiFlexGroup {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .ad-title {
+        font-size: 40px;
+    }
+
+    .ad-summary {
+        font-size: 23px;
+        text-align: center;
+    }
+
+
+    .slider-container {
+        margin-right: 0;
+    }
+
+    .leftbox {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .right-section {
+        max-width: 100%;
+    }
+
+    .billboard {
+        width: 40%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .ad-title {
+        font-size: 30px;
+    }
+
+
+    .slider-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .leftbox,
+    .right-section {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .leftbox .box,
+    .right-section .box {
+        width: 100%;
+        word-wrap: break-word;
+        white-space: normal;
+    }
+
+    .leftbox {
+        margin: 0;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .ad-title {
+        font-size: 30px;
+    }
+
+
+    .traditional-ad-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .ad-title {
+        font-size: 20px;
+    }
+
+    .ad-summary {
+        font-size: 16px;
+    }
+
+    .traditional-ad-title {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,16 @@
+.servie-title{
+    text-align: center;
+    text-wrap: wrap;
+    font-size: 5vw;
+    font-style: italic;
+}
+
+.title-wrapper{
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+
+.software-solution-footer{
+    height: 100px;
+}
