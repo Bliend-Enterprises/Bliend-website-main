@@ -47,14 +47,14 @@ const SliderComponent: FunctionComponent<SliderComponentProps> = ({
   needBlackIcon
 }) => {
   const adImages = [
-    { id: 1, src: `/webp-outdoor/BILL BOARD.webp`, alt: 'Image 1', title: 'Outdoor' },
-    { id: 2, src: `/webp-outdoor/FLAGS.webp`, alt: 'Image 2', title: 'Outdoor' },
-    { id: 3, src: `/webp-outdoor/OUTDOOR DISPLAY ONE.webp`, alt: 'Image 3', title: 'Outdoor' },
-    { id: 4, src: `/webp-outdoor/OUTDOOR DISPLAY TWO.webp`, alt: 'Image 4', title: 'Outdoor' },
-    { id: 5, src: `/webp-outdoor/STANDINGS.webp`, alt: 'Image 5', title: 'Outdoor' },
-    { id: 6, src: `/webp-print/MAGAZINE ONE.webp`, alt: 'Image 6', title: 'Print' },
-    { id: 7, src: `/webp-print/MAGAZINE TWO.webp`, alt: 'Image 7', title: 'Print' },
-    { id: 8, src: `/webp-television/TELEVISION ADS.webp`, alt: 'Image 8', title: 'Television' },
+    { id: 1, src: `/Advertisement.webp`, alt: 'Image 1', title: 'Advertisement' },
+    { id: 2, src: `/Marketing.png`, alt: 'Image 2', title: 'Marketing' },
+    { id: 3, src: `/webdev.png`, alt: 'Image 3', title: 'Software Solutions' },
+    // { id: 4, src: `/webp-outdoor/OUTDOOR DISPLAY TWO.webp`, alt: 'Image 4', title: 'Outdoor' },
+    // { id: 5, src: `/webp-outdoor/STANDINGS.webp`, alt: 'Image 5', title: 'Outdoor' },
+    // { id: 6, src: `/webp-print/MAGAZINE ONE.webp`, alt: 'Image 6', title: 'Print' },
+    // { id: 7, src: `/webp-print/MAGAZINE TWO.webp`, alt: 'Image 7', title: 'Print' },
+    // { id: 8, src: `/webp-television/TELEVISION ADS.webp`, alt: 'Image 8', title: 'Television' },
   ]
 
   const settings: Settings = {

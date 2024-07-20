@@ -92,7 +92,7 @@ const Footer = () => {
                     <EuiText>
                         <strong>Contact Us:</strong>
                         <br />
-                        <EuiLink href="mailto:info@company.com" className="footer-link">support@bliend.in</EuiLink>
+                        <EuiLink href="mailto:support@bliend.in" className="footer-link">support@bliend.in</EuiLink>
                         <br />
                         <EuiLink href="tel:+917418290420" className="footer-link">+91 74182 90420</EuiLink>
                     </EuiText>
