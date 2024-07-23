@@ -48,7 +48,7 @@ const SliderComponent: FunctionComponent<SliderComponentProps> = ({
 }) => {
   const adImages = [
     { id: 1, src: `/Advertisement.webp`, alt: 'Image 1', title: 'Advertisement' },
-    { id: 2, src: `/marketing-web.png`, alt: 'Image 2', title: 'Marketing' },
+    { id: 2, src: `/Marketing-web.png`, alt: 'Image 2', title: 'Marketing' },
     { id: 3, src: `/web-solutions.webp`, alt: 'Image 3', title: 'Software Solutions' },
     // { id: 4, src: `/webp-outdoor/OUTDOOR DISPLAY TWO.webp`, alt: 'Image 4', title: 'Outdoor' },
     // { id: 5, src: `/webp-outdoor/STANDINGS.webp`, alt: 'Image 5', title: 'Outdoor' },
