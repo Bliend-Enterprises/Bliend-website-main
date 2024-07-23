@@ -26,6 +26,9 @@ const HeaderComponent: FunctionComponent = () => {
 
     return (
         <Fragment>
+                {/* <div className="header-container">
+                    <ScrollingHeader/>
+                </div> */}
             <EuiHeader style={{ background: 'white', border: 'none' }} position="fixed">
                 <div className="header-container">
                     <EuiFlexItem grow={false} id="menu-icon">
@@ -70,9 +73,7 @@ const HeaderComponent: FunctionComponent = () => {
                         </EuiFlexGroup>
                     </EuiFlexItem>
                 </div>
-                <div className="header-container">
-                    <ScrollingHeader />
-                </div>
+                
             </EuiHeader>
 
             {isFlyoutVisible && (

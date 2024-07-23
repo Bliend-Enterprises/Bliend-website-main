@@ -3,6 +3,7 @@ import './App.css';
 import LandingPage from './page/LandingPage';
 import SplashScreen from './page/SplashScreen';
 import SEO from './components/SEO';
+import ScrollingHeader from './components/ScrollingHeader';
 
 const App: FunctionComponent = () => {
   const [showSplash, setShowSplash] = useState(true);

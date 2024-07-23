@@ -2,6 +2,7 @@ import { EuiFlexGroup, EuiFlexItem, EuiPage, EuiPageBody, EuiText } from "@elast
 import './SoftwareSolutions.css'
 import SliderComponent from "./SliderComponent"
 import ScrollFadeIn from "./ScrollPageContent"
+import SliderWeb from "./SliderWeb"
 
 const SoftwareSolutions = () => {
     return  <EuiPage style={{overflow:'hidden'}} restrictWidth={false} hidden={true}>
@@ -37,7 +38,7 @@ const SoftwareSolutions = () => {
         </EuiFlexItem>
         <EuiFlexItem>
           <ScrollFadeIn  slideFromLeft={false}>
-            <SliderComponent autoplay={true} needBlackIcon={true}/>
+            <SliderWeb autoplay={true} needBlackIcon={true}/>
             </ScrollFadeIn>
         </EuiFlexItem>
     </EuiFlexGroup>

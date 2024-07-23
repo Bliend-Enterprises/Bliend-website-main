@@ -1,5 +1,5 @@
 import React, { Fragment, FunctionComponent, useCallback, useEffect, useMemo } from 'react';
-import { EuiFlexGroup, EuiFlexItem, EuiImage, EuiPage, EuiPageBody, EuiText } from "@elastic/eui";
+import { EuiFlexGroup, EuiFlexItem, EuiImage, euiPaddingSize, EuiPage, EuiPageBody, EuiText } from "@elastic/eui";
 import './Marketing.css';
 import ScrollFadeIn from "./ScrollPageContent";
 

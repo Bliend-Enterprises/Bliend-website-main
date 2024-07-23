@@ -81,7 +81,7 @@
 
 
 
-   .marketing-section {
+  .marketing-section {
     width: 100%;
     font-size: 25px;
     margin: 0 auto;
@@ -104,12 +104,66 @@
     .marketing-mobile-title {
       display: block;
     }
+    .marketing-section p {
+      padding-right: 150px;
+    }
   }
+
+  @media only screen and (max-width: 767px) {
+    .css-x85v3e-euiFlexGroup-responsive-wrap-l-flexStart-stretch-row {
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding-left: 25px;
+    }
+}
+
+  @media only screen and (max-width: 655px) {
+    .css-x85v3e-euiFlexGroup-responsive-wrap-l-flexStart-stretch-row>.euiFlexItem {
+        inline-size: 100% !important;
+        -webkit-flex-basis: 100% !important;
+        -ms-flex-preferred-size: 100% !important;
+        flex-basis: 40% !important;
+    }
+}
   
+@media only screen and (max-width: 425px) {
+    .css-x85v3e-euiFlexGroup-responsive-wrap-l-flexStart-stretch-row {
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: initial;
+        gap: 15px;
+        padding-left: 25px;
+    }
+}
+@media only screen and (max-width: 425px) {
+  .css-x85v3e-euiFlexGroup-responsive-wrap-l-flexStart-stretch-row>.euiFlexItem {
+      inline-size: 100% !important;
+      -webkit-flex-basis: 100% !important;
+      -ms-flex-preferred-size: 100% !important;
+      flex-basis: 46% !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .css-x85v3e-euiFlexGroup-responsive-wrap-l-flexStart-stretch-row>.euiFlexItem {
+      inline-size: 100% !important;
+      -webkit-flex-basis: 100% !important;
+      -ms-flex-preferred-size: 100% !important;
+      flex-basis: 44% !important;
+  }
+  .digital-scroll h2 {
+    font-size: 20px !important;
+}
+}
+
   .digital-scroll {
     padding-left: 50px;
     display: flex;
     align-items: center;
+    padding-top: 25px;
   }
   
   .digital-scroll h2 {
@@ -186,3 +240,28 @@
     text-align: center;
   }
   
+
+  @media (max-width: 430px) {
+    .marketing-section h2 {
+      display: none;
+    }
+  
+    .marketing-mobile-title {
+      display: block;
+    }
+    .marketing-section p {
+      padding-right: 50px;
+      font-size: 15px;
+    }
+    .marketing-section{
+      padding-left: 25px;
+    }
+    .tilted-phone-left {
+      padding-bottom: 10px;
+      padding-top: 25px;
+      width: auto;
+      max-height: 520px;
+      margin: 0 auto;
+      transform: perspective(200px) rotate3D(0, 1, 0, 10deg);
+    }
+  }

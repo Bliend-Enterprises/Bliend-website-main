@@ -7,7 +7,7 @@ import ScrollFadeIn from "./ScrollPageContent";
 
 
 const ServicePage: FunctionComponent = () => {
-    return <EuiPage style={{ backgroundColor: 'transparent', paddingBottom: '200px' }} 
+    return <EuiPage style={{ backgroundColor: 'transparent', paddingBottom: '50px' }} 
         id="services-section">
             <EuiPageBody component="div">
                 <EuiFlexGroup responsive={true} wrap={true} direction="row" gutterSize="none">

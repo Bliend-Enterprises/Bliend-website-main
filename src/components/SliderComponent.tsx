@@ -12,7 +12,7 @@ const CustomNextArrow = (props: any) => {
     <EuiImage
       className={className}
       style={{
-        ...style, display: "block", width: '60px', height: 'auto',
+        ...style, display: "block", width: '40px', height: 'auto',
       }}
       src={!hasBlackIcon ?"/icons/RIGHT SCROLL BUTTON.png":"/icons/RIGHT ICON BLACK.png"}
       alt="right"
@@ -27,7 +27,7 @@ const CustomPrevArrow = (props: any) => {
     <EuiImage
       className={className}
       style={{
-        ...style, display: "block", width: '60px', height: 'auto',
+        ...style, display: "block", width: '40px', height: 'auto',
         zIndex: 2
       }}
       src={!hasBlackIcon ?"/icons/LEFT SCROLL BUTTON.png":"/icons/LEFT ICON BLACK.png"}
@@ -48,8 +48,8 @@ const SliderComponent: FunctionComponent<SliderComponentProps> = ({
 }) => {
   const adImages = [
     { id: 1, src: `/Advertisement.webp`, alt: 'Image 1', title: 'Advertisement' },
-    { id: 2, src: `/Marketing.png`, alt: 'Image 2', title: 'Marketing' },
-    { id: 3, src: `/webdev.png`, alt: 'Image 3', title: 'Software Solutions' },
+    { id: 2, src: `/marketing-web.png`, alt: 'Image 2', title: 'Marketing' },
+    { id: 3, src: `/web-solutions.webp`, alt: 'Image 3', title: 'Software Solutions' },
     // { id: 4, src: `/webp-outdoor/OUTDOOR DISPLAY TWO.webp`, alt: 'Image 4', title: 'Outdoor' },
     // { id: 5, src: `/webp-outdoor/STANDINGS.webp`, alt: 'Image 5', title: 'Outdoor' },
     // { id: 6, src: `/webp-print/MAGAZINE ONE.webp`, alt: 'Image 6', title: 'Print' },

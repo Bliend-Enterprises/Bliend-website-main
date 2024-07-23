@@ -84,6 +84,11 @@ const Footer = () => {
                                 <EuiIcon type="/brandLogos/pinterest.png" size="xl" />
                             </EuiLink>
                         </EuiFlexItem>
+                        <EuiFlexItem grow={false}>
+                            <EuiLink href="https://www.youtube.com/@bliend_ads" className="footer-link">
+                                <EuiIcon type="/brandLogos/youtube.png" size="xl" />
+                            </EuiLink>
+                        </EuiFlexItem>
                         </div>
                     </EuiFlexGroup>
                 </EuiFlexItem>

@@ -1,0 +1,22 @@
+.scrolling-text-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.scrolling-text {
+    display: inline-block;
+    animation: scroll-text 10s linear infinite;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
